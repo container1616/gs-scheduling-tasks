@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class ScheduledTasks {
 
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+   private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     @Scheduled(fixedRate = 5000)
     public void reportCurrentTime() {
