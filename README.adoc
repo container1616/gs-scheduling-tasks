@@ -10,5 +10,5 @@ projects: [spring-framework]
 This guide walks you through the steps for 
   1) scheduling tasks with Spring.
   2) Make REST Call
- Dockerfile is included with this project. Currently 
+ Dockerfile is included with this project. 
 
