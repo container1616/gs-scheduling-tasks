@@ -7,11 +7,14 @@ projects: [spring-framework]
 :icons: font
 :source-highlighter: prettify
 :project_id: gs-scheduling-tasks
-This guide walks you through the steps for scheduling tasks with Spring.
+This guide walks you through the steps for 
+  1) scheduling tasks with Spring.
+  2) Make REST Call
+  3) Dockerfile, changes in project files trigger dockerhub build (container1616/gs-scheduling-tasks)
 
 == What you'll build
 
-You'll build an application that prints out the current time every five seconds using Spring's `@Scheduled` annotation.
+You'll build an application that prints out REST call response every 5 seconds using Spring's `@Scheduled` annotation.
 
 == What you'll need
 
@@ -73,11 +76,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 Logging output is displayed. You should see your scheduled task fire every 5 seconds:
 
 ....
-[...]
-The time is now 13:10:00
-The time is now 13:10:05
-The time is now 13:10:10
-The time is now 13:10:15
+
 ....
 
 == Summary
